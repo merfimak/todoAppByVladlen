@@ -1,0 +1,22 @@
+.form_item {
+  margin-bottom: 20px;
+}
+
+.form_lable {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form_input {
+  height: 50px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #48DD00;
+  width: 100%;
+  font-size: 17px;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+ background-color: #95EE6B;
+}

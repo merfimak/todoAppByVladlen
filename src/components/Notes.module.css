@@ -1,0 +1,55 @@
+.notes_body{
+	
+	
+}
+
+.notes_li{
+	background-color: pink;
+	margin: 0 0 20px 0;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.li_name{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.li_name span{
+	font-size: 12px;
+	font-weight: 400;
+	margin: 0 0 0 20px;
+}
+
+.li_cross {
+	display: block;
+   width: 20px;
+   height: 20px;
+   position: relative;
+  transform:rotate(45deg);
+-ms-transform:rotate(45deg); /* IE 9 */
+-webkit-transform:rotate(45deg); /* Safari and Chrome */
+}
+
+.li_cross:before, .li_cross:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #d00;
+}
+
+.li_cross:before {
+  left: 50%;
+  width: 30%;
+  margin-left: -15%;
+  height: 100%;
+}
+
+.li_cross:after {
+  top: 50%;
+  height: 30%;
+  margin-top: -15%;
+  width: 100%;
+}

@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.fff{
+	color: red;
+	width: 200px;
+	height: 200px;
+	background-color: #999;
+}
+
+
+.alert-enter{
+	opacity: 0;
+}
+
+.alert-enter-active{
+	transform: opacity 75ms ease-out;
+	opacity: 1;
+}
+
+.alert-exit-active{
+		transform: opacity 75ms ease-out;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

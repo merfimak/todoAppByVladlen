@@ -1,0 +1,21 @@
+.navbar{
+	background-color: #75EE3B;
+	height: 50px;
+	padding: 10px;
+}
+.navbar_ul{
+	display: flex;
+	max-width: 1200px;
+	margin:0 auto;
+	padding: 0 10px;
+}
+.navbar_li{
+	margin: 0 20px 0 0;
+}
+.navbar_link{
+font-size: 24px;
+color: #000000;
+}
+.navbar_link.active{
+	border-bottom: 1px solid #000000;
+}

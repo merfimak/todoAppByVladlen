@@ -1,0 +1,14 @@
+.about_body{
+	background-color: #999;
+	padding: 20px 10px ;
+}
+.about_title{
+	font-size: 25px;
+	font-weight: 700;
+	color: #fff;
+		margin-bottom: 20px;
+}
+.about_text{
+	display: block;
+	color: #fff;
+}
